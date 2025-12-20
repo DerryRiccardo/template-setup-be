@@ -1,0 +1,26 @@
+{
+	"include": ["src/**/*.ts"],
+	"compilerOptions": {
+		"rootDir": "./src",
+		"outDir": "./dist",
+		"module": "NodeNext",
+		"target": "ESNext",
+		"lib": ["ES2023"],
+		"types": ["node"],
+		"moduleResolution": "NodeNext",
+		"sourceMap": true,
+		"declaration": true,
+		"declarationMap": true,
+		"strict": true,
+		"isolatedModules": true,
+		"moduleDetection": "force",
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": "./src",
+		"paths": {
+			"@/*": ["*"]
+		}
+	}
+}
