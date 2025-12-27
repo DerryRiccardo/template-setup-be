@@ -50,10 +50,10 @@ Create a `.env` file in the root directory:
 # Application
 NODE_ENV=development
 HOST=localhost
-PORT=3000
+PORT=8000
 
 # CORS
-CORS_ORIGIN=http://localhost:3000
+CORS_ORIGIN=http://localhost:8000
 
 # Database
 DATABASE_URL=postgresql://username:password@localhost:5432/database_name
